@@ -3,7 +3,7 @@ import yt_dlp
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 
-BOT_TOKEN = '7893316729:AAFeu2dD1lx4k8Xirx7jNr9k0VeJ-uP5eE8'
+BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
 
 # Function to download YouTube video or playlist
 async def download_youtube(update: Update, context: ContextTypes.DEFAULT_TYPE):
